@@ -15,13 +15,16 @@
     <header>
       <div class="container">
         <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#" id="top">Navbar</a>
           <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link" href="#Home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">about me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">skills</a>
@@ -39,32 +42,70 @@
 
             <div class="container">
               
-              <p class="home-text m-0 ">Nice to meet you</p>
+              <h1 class="home-text m-0 ">Nice to meet you</h1>
+              <p class="home-text">I'm...</p>
              
             </div>
             </div>
           </section>
           <!-- about -->
-          <section class="about py-5">
+          <section class="about py-5" id="about">
             <div class="container">
-              <div class="about" id="about">
+              <div class="about" >
                 <h4 class="title">about me</h4>
                 <div class="row">
                   <div class="col-md-6">
                     <img class="w-100 mb-4" src="./img/photo-of-female-meloman-listens-favourite-playlist-in-headphones_273609-30345.jpg" alt="">
                   </div>
                   <div class="col-md-6">
-                    <p>はじめまして。<br>web学習中の30代母です。Progate、ドットインストールを経て現在デイトラにて学んでいます。家では三人の子供を育て、仕事では保育士として多数の子供を育てております。新たな領域にわくわくしています。まだまだ制作過程ですが、経験として公開します。</p>
+                    <p>はじめまして。<br>web学習中のshokoです。Progate、ドットインストールを経て現在デイトラにて学んでいます。保育士として働きながら隙間時間に勉強しています。今までとは全く違う新たな領域にわくわくしています。まだまだ力量不足ですが、経験として公開します。</p>
                    
                 </div>
+            </div>
+          </section>
+
+          <section class="portfolio py-5" id="portfolio">
+            <div class="container">
+              <h4 class="title">portfolio</h4>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/usability-testing-concept-illustration_114360-1571.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">準備中</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/visual-data-concept-illustration_114360-1713.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">準備中</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./img/work-time-concept-illustration_114360-1074.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">準備中</p>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+
             </div>
           </section>
   
             
 
-          <section class="skills py-5">
+          <section class="skills py-5" id="skills">
             <div class="container">
-              <h4 class="title" id="skills">skills</h4>
+              <h4 class="title" >skills</h4>
               
               <p class="mb-0">HTML</p>
               <div class="progress">
@@ -97,8 +138,14 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <input class="btn btn-primary" type="submit" value="送信">
+              <a href="#top">topへ戻る</a>
             </div>
           </section>
+          <footer>
+            <div class="container">
+              <p class='py-3 text-center'>copyright@shoko</p>
+            </div>
+          </footer>
          
       </div>
     
