@@ -9,22 +9,26 @@ body{
   font-size: 1.2rem;
   font-family: Meiryo,sans-serif;
 }
+.containe{
+  
+}
 
 .home-wrapper{
   background-image: url(../img/photo-1432821596592-e2c18b78144f);
   background-size: cover ;
-  width:100%;
+  max-width: 860px;
+  margin: 0 auto;
   height:400px;
   margin-bottom: 30px;
   
   
 }
 .home-text{
-  font-size: 40px;
+  font-size: 3.5rem;
   text-align: center;
- line-height: 2;
+ line-height: 1.2;
  position:relative;
-  top:200px;
+  top:25rem;
   
 
   color:rgb(88, 72, 50)
