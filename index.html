@@ -1,169 +1,354 @@
-<!doctype html>
-<html lang="ja">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
-    <title>portfolio.1</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta property="og:url" content="https://show0110.github.io/myfirstportfolio/#Home" /> <!--③-->
-    <meta property="og:title" content="初めてのポートフォリオ" /> <!--④-->
-    <meta property="og:description" content="2月からデイトラ開始。12月全くの未経験からドットインストール、progateでWeb製作学習開始。働きながら隙間時間に学習中！" /> <!--⑤-->
-    <meta property="og:image" content="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80"/>
-  </head>
-  <body>
-    <header class="bg-light">
-      <div class="container">
-        <nav id="navbar-example2" class="navbar navbar-light  px-3">
-          <a class="navbar-brand" href="#" id="top">Navbar</a>
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" href="#Home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">about me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">contact</a>
-            </li>
-            
-          </ul>
-        </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
-        </header>
-          <!-- home -->
-          <section class="home-wrapper" id="Home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sobolon-海洋マイクロプラスチックを素材とした ハンドメイドアクセサリー</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="sass/styles.scss">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./js/script.js">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body class="drawer--right">
+  <header class="header">
+    <div class="inner header_inner">
+      <h1 class="header_logo">
+        <a href="#"><img src="./img/logo.png" alt=""></a>
+      </h1>
+      <nav class="header_nav">
+        <ul header_nav_list>
+          <li class="header_nav_item">
+            <a href="#concept">Concept</a>
+          </li>
+          <li class="header_nav_item">
+            <a href="#feature">Feature</a>
+          </li>
+          <li class="header_nav_item">
+            <a href="#products">Products</a>
+          </li>
+          <li class="header_nav_item">
+            <a href="#news">News</a>
+          </li>
+          <li class="header_nav_item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-            <div class="container">
-              
-              <h1 class="home-text m-0 ">Nice to meet you</h1>
-              <p class="home-text">I'm...</p>
-             
-            </div>
-            </div>
-          </section>
-          <!-- about -->
-          <section class="about py-5" id="about">
-            <div class="container">
-              <div class="about" >
-                <h4 class="title">about me</h4>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img class="w-100 mb-4" src="./img/photo-of-female-meloman-listens-favourite-playlist-in-headphones_273609-30345.jpg" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <p>はじめまして。<br>web学習中のshokoです。Progate、ドットインストールを経て現在デイトラにて学んでいます。保育士として働きながら隙間時間に勉強しています。今までとは全く違う新たな領域にわくわくしています。まだまだ力量不足ですが、経験として公開します。</p>
-                   
-                </div>
-            </div>
-          </section>
-
-          <section class="portfolio py-5" id="portfolio">
-            <div class="container">
-              <h4 class="title">portfolio</h4>
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="./img/usability-testing-concept-illustration_114360-1571.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">準備中</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./img/visual-data-concept-illustration_114360-1713.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">準備中</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./img/work-time-concept-illustration_114360-1074.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">準備中</p>
-                    </div>
-                  </div>
-                </div>
-               
-              </div>
-
-            </div>
-          </section>
-  
-            
-
-          <section class="skills py-5" id="skills">
-            <div class="container">
-              <h4 class="title" >skills</h4>
-              
-              <p class="mb-0">HTML</p>
-              <div class="progress">
-                <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div>
-              <p class="mb-0">CSS</p>
-              <div class="progress">
-                <div class="progress-bar " role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div>
-              <p class="mb-0">JavaScript</p>
-              <div class="progress">
-                <div class="progress-bar " role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-              </div>
-              
-            </div>
-            
-          </section>
-          
-          <!-- contact -->
-          <section class="contact-wrapper py-5"  id="contact">
-
-            <div class="container"  >
-              <h4 class="title" >Contact</h4>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">内容</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <input class="btn btn-primary" type="submit" value="送信">
-              <a href="#top">topへ戻る</a>
-            </div>
-          </section>
-          <footer  class="bg-light">
-            <div class="container">
-              <p class='py-3 text-center'>copyright@shoko</p>
-            </div>
-          </footer>
-         
-      </div>
-    
+  <!-- navbar -->
+  <button class="drawer-icon js-drawer for-drawer" type='button' data-target="for-drawer">
+    <span class="navbar-bars">
+      <span class="navbar_toggle_icon"></span>
+      <span class="navbar_toggle_icon"></span>
+      <span class="navbar_toggle_icon"></span>
+    </span>
+  </button>
+  <div class="drawer-background for-drawer"></div>
+  <div class="drawer-content for-drawer">
+    <ul>
+      <li><a href="#concept">Concept</a></li>
+      <li><a href="#feature">Feature</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
+  
+  <!-- header -->
+  
+  <main class="main">
     
-    <!-- Optional JavaScript; choose one of the two! -->
-    
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-  </body>
+      <div class="top  inner wow fadeInUp"data-wow-duration="2.0s">
+        <div class="top_background"></div>
+        <div class="top_text">
+          <h1 class='top_title'>“可愛い”で<br class='is-pc'>地球を守る！</h1>
+          <p class='top_message'>海洋マイクロプラスチックを素材をしたハンドメイドアクセサリー「sobolon」</p>
+        </div> 
+      
+      </div>
+
+
+    </section>
+      <!-- concept -->
+    <section class="consept section inner  wow fadeInUp" data-wow-duration="2.0s"id="concept">
+      <h2 class="section-title" id="concept">Concept</h2>
+      <div class="concept_inner ">
+        
+          <div class="concept_pic">
+            <img class="concept-image" src="./img/concept-1.png" alt="写真">
+          </div>
+          <div class="concept_text">
+            <h3>可愛くてステキなのは当たり前。<br> 地球にやさしくあるのも当たり前。</h3>
+            <p>「sobolon」は、海洋汚染の要因であるマイクロプラスチックを回収し、それらを素材としたハンドメイドアクセサリーを製作しているブランドです。</p>
+          </div>
+        
+      </div>
+    </section>
+    
+    <!-- feature -->
+    <section class="feature section inner " data-wow-duration="2.0s">
+      <h2 class="section-title  wow fadeInUp" id="feature">Feature</h2>
+      <div class="feature_inner ">
+        <ul class="card-items ">
+          <li class="card-item  wow fadeInUp ">
+            <a class="card-item-link" href="#">
+              <div class="feature-item-pic">
+                <img src="./img/feature-1.png" alt="">
+              </div>
+              <div class="feature-item-body">
+                <p class='card-desc'>素材は海で採れた<br> マイクロプラスチック</p>
+              </div>
+            </a>
+          </li>
+          <li class="card-item  wow fadeInUp">
+            <a class="card-item-link" href="#">
+              <div class="feature-item-pic">
+                <img src="./img/feature-2.png" alt="">
+              </div>
+              <div class="feature-item-body">
+                <p class='card-desc'>個性あふれる<br> “可愛い”デザイン</p>
+              </div>
+            </a>
+          </li>
+          <li class="card-item  wow fadeInUp">
+            <a class="card-item-link" href="#">
+              <div class="feature-item-pic">
+                <img src="./img/feature-3.png" alt="">
+              </div>
+              <div class="feature-item-body">
+                <p class='card-desc'>世界にひとつだけの <br>一点物アクセサリー</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+<!-- about -->
+    <div class="about section  wow fadeInUp" data-wow-duration="2.0s" >
+      <div class="about_inner inner">
+        <p class="about-title">消費者である私たちが、<br> 地球環境のためにできることは何か？</p>
+        <p class="about-text">そんな視点からこのブランドは生まれました。<br> オシャレを楽しむ気持ちを大切にしながらも、<br class='is-pc'> ただ可愛いだけじゃない環境にやさしいアクセサリーを選ぶ人が増えていったら… <br>その変化は少しずつ、だけども本質的に、<br> この世界をHappyに変えていくのだと、私たちは考えます。</p>
+      </div>
+    </div>
+    
+    <!-- Products -->
+    <section class="products inner section  wow fadeIn" data-wow-duration="2.0s">
+      <div class="products_inner">
+      <h2 class="section-title  wow fadeInUp" id="products">Products</h2>
+        <ul class="products-list">
+          <li class="products-item  wow fadeInUp">
+            <a class="products-item-link" href="#">
+              <div class="products-item-pic">
+                <img src="./img/product-1.png" alt="">
+              </div>
+              <div class="products-item-body">
+                <p class='products-desc'>【しかくイヤリング】海洋マイクロプラスチックを使ったハンドメイドイヤリング(全7色)</p>
+                <p class="products-item-cost">￥3,695</p>
+              </div>
+            </a>
+          </li>
+          <li class="products-item  wow fadeInUp">
+            <a class="products-item-link" href="#">
+              <div class="products-item-pic">
+                <img src="./img/product-2.png" alt="">
+              </div>
+              <div class="products-item-body">
+                <p class='products-desc'>【しかく指輪】海洋マイクロプラスチックを使ったハンドメイドアクセサリー/ゆびわ(全7色)</p>
+                <p class="products-item-cost">￥2,390</p>
+              </div>
+            </a>
+          </li>
+          <li class="products-item  wow fadeInUp">
+            <a class="products-item-link" href="#">
+              <div class="products-item-pic">
+                <img src="./img/product-3.png" alt="">
+              </div>
+              <div class="products-item-body">
+                <p class='products-desc'>【しかく指輪】海洋マイクロプラスチックを使ったハンドメイドアクセサリー/ゆびわ(全7色)</p>
+                <p class="products-item-cost">￥2,580</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="products_footer">
+          <a href="#" class="util_link">MORE</a>
+        </div>
+      </div>
+    </section>
+    <!-- News -->
+    <section class='news section inner'>
+      <h2 class="section-title" id="news">News</h2>
+      <div class="news-list">
+        <article class='news-item  wow fadeInUp'>
+          <a href="#" class="news_item_link  ">
+            <div class="news_header">
+              <div class="news_item_pic"><img src="./img/news-1.png" alt=""></div>
+            </div>
+            <div class="news_body">
+              <p class="news_date"><time datetime="2020-02-04">2020年2月4日</time></p>
+              <h3 class="news_title">き業展終了！次回は2/11(火)フェスタ出店します。</h3>
+              <p class="news_text">「き業展」2日目！大盛況に終わりました\( ˆoˆ )/来てくださったみなさん本当にありがとうございました！やっぱり、地元多治見での出店はみ…</p>
+            </div>
+          </a>
+        </article>
+        <article class='news-item  wow fadeInUp'>
+          <a href="#" class="news_item_link">
+            <div class="news_header">
+              <div class="news_item_pic"><img src="./img/news-2.png" alt=""></div>
+            </div>
+            <div class="news_body">
+              <p class="news_date"><time datetime="2020-01-20">2020年1月20日</time></p>
+              <h3 class="news_title">“可愛い” で 地球を守る！ 海洋マイクロプラスチックを使ったハンドメイドアクセサリー屋さん 【sobolon】</h3>
+              <p class="news_text">こんにちは！私は、「 “可愛い” で地球を守る！」をテーマに、昨今、環境問題として話題になっている、マイクロプラスチックを使ったアクセサリー…</p>
+            </div>
+          </a>
+        </article>
+        <article class='news-item  wow fadeInUp'>
+          <a href="#" class="news_item_link">
+            <div class="news_header">
+              <div class="news_item_pic"><img src="./img/news-3.png" alt=""></div>
+            </div>
+            <div class="news_body">
+              <p class="news_date"><time datetime="2020-11-23">2020年11月23日</time></p>
+                <h3 class="news_title">sobolonの矛盾</h3>
+                <p class="news_text">こんにちは！“可愛い”で 地球を守る！マイクロプラスチックアクセサリー【 sobolon 】のリーダーひなこです！sobolonを知らない…</p>
+           </div>
+          </a>
+        </article>
+        <div class="news_footer">
+          <a href="#" class="util_link">MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- concept2 -->
+    <section class="consept2 section  wow fadeIn" data-wow-duration="2.0s">
+      
+      <div class="concept2_inner inner">
+        
+          <div class="concept2_pic">
+            <img src="./img/concept-2.png" alt="写真">
+          </div>
+          <div class="concept2_text">
+            <p class='concept2-message-title'>合言葉は、 <br>「 “可愛い” で 地球を守る！」</p>
+            <p class="concept2-message-text">深刻化している環境問題に対して、否定や制限、禁止といった強制的な方法ではなく、明るく幸せな未来を目指して、「可愛い」「楽しい」の力を信じて、愛につながる選択を世の中に増やしていきます。</p>
+          </div>
+        
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact section  wow fadeInUp" id="contact">
+      
+      <h2 class="section-title" id="contact">Contact</h2>
+      <div class="contact_inner inner">
+        <p class="contact-text"><span class="contact-text-inline">*</span>は入力必須項目です</p>
+        <form id="js-form" class='contact-form' action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdDlXG2V_POWT21dfQSr9ENc_JCsEyLBld2z8uWHnc_em3Aaw/formResponse" method="POST">
+          <dl class="contact-list">
+            <div class='contact-item'>
+              <dt class="contact-title">
+                お名前<span class="contact-item-inline">*</span>
+              </dt>
+              <dd class='contact-input'>
+                <input type="text" name="entry.1311708149" required>
+              </dd>
+            </div>
+            <div class='contact-item'>
+              <dt class="contact-title">
+                メールアドレス<span class="contact-item-inline">*</span>
+              </dt>
+              <dd class='contact-input'>
+                <input type="email"  name="emailAddress" required>
+              </dd>
+            </div>
+            <div class='contact-item'>
+              <dt class="contact-title">
+                法人/個人の選択<span class="contact-item-inline">*</span>
+              </dt>
+              <dd class='contact-input'>
+                <div class="contact-radio-wrap">
+                  <label class="contact-radio">
+                    <input type="radio" name="entry.1428929191" required checked class="contact-radio-input" value="法人">
+                    <span class="contact-radio-part is-active">法人</span>
+                  </label>
+                  <label class="contact-radio">
+                    <input type="radio" name="entry.1428929191" required class="contact-radio-input" value="個人">
+                    <span class="contact-radio-part">個人</span>
+                  </label>
+                </div>
+              </dd>
+            </div>
+            <div class='contact-item'>
+              <dt class="contact-title">
+                お問い合わせ内容<span class="contact-item-inline">*</span>
+              </dt>
+              <dd class='contact-input'>
+                <textarea name="entry.1145533078" required></textarea>
+              </dd>
+            </div>
+          </dl>
+          <div class="contact_footer">
+            <p class="contact-footer-text">
+              <label class="contact-privacy">
+                <input type="checkbox" name="entry.1114032866" class="contact-privacy-input" value='プライバシーポリシーの同意' >
+                <span class="contact-privacy-part"></span>
+             </label>
+            <a href="" target="_blank" class="contact-privacy-link">プライバシーポリシー</a>
+              に同意します。
+            </p>
+            
+            <button id="js-submit" class="util_link -submit" type="submit" disabled>送信</button>
+          </div>
+        </form>
+        <div id="js-success" class="contact-message">
+          <p>送信完了しました。ありがとうございました。</p>
+        </div>
+        <div id= "js-error" class="contact-message  -error">
+          <p>送信に失敗しました。ページを更新して再度送信してください。</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_logo">
+        <img src="./img/logo.png" alt="sobolon">
+      </div>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href="" class="footer-item-link">プライバシーポリシー</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="" class="footer-item-link">特定商取引法に基づく表記</a>
+        </li>
+      </ul>
+      <ul class="footer-sns-list">
+        <li class="footer-sns-item">
+          <a href="" class="footer-sns-link" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="footer-sns-item">
+          <a href="" class="footer-sns-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="footer-sns-item">
+          <a href="" class="footer-sns-link" aria-label="line"><i class="fab fa-line"></i></a>
+        </li>
+      </ul>
+      <p class="footer-copyright"><small lang="en">© 2020 sobolon All rights reserved</small></p>
+     
+    </footer>
+    
+ </main>
+  <script src="./js/wow.min.js"></script> 
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+<script src="./js/script.js"></script>
+  
+</body>
 </html>
